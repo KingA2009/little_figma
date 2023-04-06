@@ -33,13 +33,11 @@
     padding-top: 60px;
 }
 
-
 .hello {
     font-weight: 500;
     font-size: 24px;
     color: #666666;
 }
-
 
 .person-text {
     font-size: 55px;
@@ -54,7 +52,6 @@
     margin-bottom: 50px;
     margin-top: 10px;
 }
-
 
 .btn {
     font-weight: 500;
@@ -80,7 +77,7 @@
     color: #25202F;
 }
 
-.card {
+.card1 {
     width: 330px;
     margin-top: 50px;
 }
@@ -116,6 +113,7 @@
     width: 1140px;
     margin: auto;
     padding-top: 110px;
+    margin-top: 200px;
 }
 
 .left_text_all2 {
@@ -141,4 +139,114 @@
     font-weight: 700;
     font-size: 36px;
     color: #25202F;
+}
+
+
+.card {
+    width: 170px;
+    height: 170px;
+    background: #FFF7FA;
+    border: 1px solid #FFE7F0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.image_one {
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stackText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.card:nth-child(2) {
+    background: #EDFFF5;
+}
+
+.card:nth-child(3) {
+    background: #F5FCFF;
+}
+
+.card:nth-child(4) {
+    background: #FFFBF2;
+}
+
+.card:nth-child(5) {
+    background: #F4FFED;
+}
+
+
+.text {
+    width: 512px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 52px;
+    margin-top: 100px;
+    /* or 144% */
+    padding-bottom: 50px;
+
+
+    color: #21232D;
+}
+
+
+footer {
+    width: 1140px;
+    margin: auto;
+}
+
+
+input {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    color: #A8A0B0;
+    outline: none;
+}
+
+
+#btn_two {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    color: #21232D;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
+.footer_logo{
+    gap: 140px;
+}
+.img_footer{
+    gap: 140px; 
+    margin-bottom: 65px;
 }
